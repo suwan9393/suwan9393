@@ -9,14 +9,6 @@
 스크린타임 18시간 <br>
 #### 귀엽습니다. <br>
 
-### 일생🌱
--2010. 보광유치원 입학<br>
--2012. 국방대유치원 졸업<br>
--2013. 3. 4 서울하늘초등학교 입학<br>
--2014. 대충 3월쯤 부산 화정초등학교 전학<br>
--2015. 3. 부산 덕두초등학교 <br>
-아 귀찮아
-
 <a href="https://www.instagram.com/swxn3o/"><img src="https://img.shields.io/badge/instagram-FF0069?style=flat-square&logo=instagram&logoColor=white&link=https://www.instagram.com/swxn3o/"/></a>
 
 <!--
