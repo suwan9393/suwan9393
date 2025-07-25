@@ -7,9 +7,7 @@
 수험생 키우기 서울대 의대 진학 <br>
 멜론 vip 유지 중 (엄마 돈으로) <br>
 스크린타임 18시간 <br>
-#### 귀엽습니다. <br>
 
-<a href="https://www.instagram.com/swxn3o/"><img src="https://img.shields.io/badge/instagram-FF0069?style=flat-square&logo=instagram&logoColor=white&link=https://www.instagram.com/swxn3o/"/></a>
 
 <!--
 **suwan9393/suwan9393** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
