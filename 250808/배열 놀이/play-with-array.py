@@ -1,7 +1,7 @@
 n, Q = map(int,input().split())
 lst = input().split()
 
-for _ in range(n):
+for _ in range(Q):
     q = input().split()
     if q[0] == '1':
         print(lst[int(q[1])-1])
