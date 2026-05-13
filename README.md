@@ -1,4 +1,4 @@
-![Typing Text](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&pause=1000&color=FFB6C1&width=500&lines=%EC%A7%91%EC%97%90+%EA%B0%80%EA%B3%A0+%EC%8B%B6%EB%8B%A4.(%EC%A7%91%EC%97%90+%EA%B0%80%EA%B3%A0+%EC%8B%B6%EB%8B%A4%EB%8A%94+%EB%9C%BB))
+![Typing Text](https://readme-typing-svg.demolab.com?font=Nanum+Pen+Script&weight=700&size=22&pause=1000&color=FFB6C1&width=500&lines=%EC%A7%91%EC%97%90+%EA%B0%80%EA%B3%A0+%EC%8B%B6%EB%8B%A4.(%EC%A7%91%EC%97%90+%EA%B0%80%EA%B3%A0+%EC%8B%B6%EB%8B%A4%EB%8A%94+%EB%9C%BB))
 
 # ✨ 내가 21살에 이룬것들 ✨
 슈의 라면가게 42500원 벌어봄 <br>
