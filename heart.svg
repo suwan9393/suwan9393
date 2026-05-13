@@ -1,21 +1,22 @@
 <svg width="200" height="200" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <!-- 색상 경계를 더 뚜렷하게 만든 그라데이션 -->
-    <linearGradient id="distinctGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="10%" style="stop-color:#FF69B4;"> <!-- 더 진한 핑크 -->
-        <animate attributeName="stop-color" values="#FF69B4;#98FB98;#FFFFFF;#FF69B4" dur="10s" repeatCount="indefinite" />
+    <linearGradient id="heartFill" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="10%" style="stop-color:#FF69B4;"> <animate attributeName="stop-color" 
+                 values="#FF69B4; #98FB98; #FFFFFF; #FF69B4" 
+                 dur="10s" 
+                 repeatCount="indefinite" />
       </stop>
-      <stop offset="90%" style="stop-color:#32CD32;"> <!-- 더 진한 연두 -->
-        <animate attributeName="stop-color" values="#32CD32;#FFFFFF;#FF69B4;#32CD32" dur="10s" repeatCount="indefinite" />
+      <stop offset="90%" style="stop-color:#32CD32;"> <animate attributeName="stop-color" 
+                 values="#32CD32; #FFFFFF; #FF69B4; #32CD32" 
+                 dur="10s" 
+                 repeatCount="indefinite" />
       </stop>
     </linearGradient>
   </defs>
 
-  <!-- 하트를 정중앙(150, 150)으로 옮기고 크기를 줄인 그룹 -->
   <g transform="translate(150, 150)">
-    <path fill="url(#centeredGradient)" 
+    <path fill="url(#heartFill)" 
           d="M0 76.1l-13.1-11.9C-59.7 21 -91 -7.4 -91 -42c0-28.2 22.2-50.4 50.4-50.4 15.9 0 31.2 7.4 40.6 19.1 9.4-11.7 24.7-19.1 40.6-19.1 28.2 0 50.4 22.2 50.4 50.4 0 34.6-31.3 63-77.9 106.2L0 76.1z">
-      <!-- 하트 자체 크기를 줄이고(0.6), 정중앙에서 커지게(0.85) 설정 -->
       <animateTransform 
         attributeName="transform" 
         type="scale" 
