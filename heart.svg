@@ -1,18 +1,12 @@
 <svg width="200" height="200" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <!-- 색이 탁해지지 않게 화이트를 거쳐가는 12초 주기 그라데이션 -->
-    <linearGradient id="centeredGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#FFB6C1; stop-opacity:1">
-        <animate attributeName="stop-color" 
-                 values="#FFB6C1; #FFFFFF; #98FB98; #FFFFFF; #FFB6C1" 
-                 dur="12s" 
-                 repeatCount="indefinite" />
+    <!-- 색상 경계를 더 뚜렷하게 만든 그라데이션 -->
+    <linearGradient id="distinctGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="10%" style="stop-color:#FF69B4;"> <!-- 더 진한 핑크 -->
+        <animate attributeName="stop-color" values="#FF69B4;#98FB98;#FFFFFF;#FF69B4" dur="10s" repeatCount="indefinite" />
       </stop>
-      <stop offset="100%" style="stop-color:#98FB98; stop-opacity:1">
-        <animate attributeName="stop-color" 
-                 values="#98FB98; #FFFFFF; #FFB6C1; #FFFFFF; #98FB98" 
-                 dur="12s" 
-                 repeatCount="indefinite" />
+      <stop offset="90%" style="stop-color:#32CD32;"> <!-- 더 진한 연두 -->
+        <animate attributeName="stop-color" values="#32CD32;#FFFFFF;#FF69B4;#32CD32" dur="10s" repeatCount="indefinite" />
       </stop>
     </linearGradient>
   </defs>
