@@ -1,0 +1,30 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- 훨씬 천천히 변하는 그라데이션 (10초 주기) -->
+    <linearGradient id="slowGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFB6C1;">
+        <animate attributeName="stop-color" values="#FFB6C1;#FFFFFF;#98FB98;#FFB6C1" dur="10s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="50%" style="stop-color:#FFFFFF;">
+        <animate attributeName="stop-color" values="#FFFFFF;#98FB98;#FFB6C1;#FFFFFF" dur="10s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" style="stop-color:#98FB98;">
+        <animate attributeName="stop-color" values="#98FB98;#FFB6C1;#FFFFFF;#98FB98" dur="10s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+  </defs>
+
+  <!-- 크기 변화 폭을 키우고 속도는 늦춘 애니메이션 (4초 주기) -->
+  <path fill="url(#slowGradient)" d="M100 176.1l-13.1-11.9C40.3 121 9 92.6 9 58 9 29.8 31.2 7.6 59.4 7.6c15.9 0 31.2 7.4 40.6 19.1 9.4-11.7 24.7-19.1 40.6-19.1 28.2 0 50.4 22.2 50.4 50.4 0 34.6-31.3 63-77.9 106.2L100 176.1z">
+    <animateTransform 
+      attributeName="transform" 
+      type="scale" 
+      values="1; 1.25; 1" 
+      dur="4s" 
+      repeatCount="indefinite" 
+      additive="sum" 
+      transform-origin="100 100" 
+      calcMode="spline" 
+      keySplines="0.4 0 0.2 1; 0.4 0 0.2 1" />
+  </path>
+</svg>
